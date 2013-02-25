@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>PHP - Project Starter</title>
+        <title>CodeIgniter Bootstrap Project</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
@@ -28,7 +28,7 @@
         <![endif]-->
 		<div id="fb-root"></div>
 		<header>
-			<h1>Isso é um header</h1>
+			<h1>Header</h1>
 		</header>
         <div role="main">
 			<?= $content_for_layout; ?>
@@ -36,15 +36,7 @@
 		<footer>
 			<p>Foooooooooooooooooter</p>
 		</footer>
-		<script src="//connect.facebook.net/en_US/all.js"></script>
-    <script>
-    window.fbAsyncInit = function() {
-      FB.init({
-        appId      : 'APP_ID'
-      });
-      FB.Canvas.setAutoGrow();
-    }
-    </script>
+
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/assets/javascripts/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="/assets/javascripts/plugins.js"></script>
