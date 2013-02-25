@@ -1,14 +1,18 @@
-PHP - Project Starter
+CodeIgniter Bootstrap Project
 ===============================
 
+This is the main files to start development projects in PHP with CodeIgniter.
+Already set the autoload of views, just have fun!
 
-Esse são os arquivos principais para o inicio do desenvolvimento em projetos PHP com CodeIgniter.
-Já está configurado o autoload das views, just have fun!
+Default folder structure:
 
-Segue alguns padrões:
+1. Images in `assets/images`
+2. CSS in `assets/stylesheets`
+3. JS in `assets/javascripts`
+4. Webfonts in `assets/fonts`
 
-1. Imagens dentro de `assets/images`
-2. CSS na pasta `assets/stylesheets`
-3. JS na pasta `assets/javascripts`
-4. Webfonts dentro de `assets/fonts`
-5. Toda view vai ser carregada a partir de `application/views/(controller)/(action)` e "filha" de `application/views/layout/application.php` 
+Some features:
+
+1. Autoloading the view, like Rails does. `application/(controller)/(action)`
+2. ORM Datamapper included
+3. Extra fun on development!
